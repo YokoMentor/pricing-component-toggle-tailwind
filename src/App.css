@@ -5,9 +5,9 @@
 .switch {
     position: relative;
     display: inline-block;
-    width: 42px;
-    height: 22px;
-    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    width: 56px;
+    height: 32px;
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     border-radius: 25px;
 }
 
@@ -15,9 +15,9 @@
     content: "";
     position: absolute;
     top: 4px;
-    left: 4px;
-    width: 14px;
-    height: 14px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
     background-color: white;
     border-radius: 50%;
     transition: all 0.3s;
