@@ -13,6 +13,7 @@ export default {
       "toggle-label": "hsl(234, 14%, 74%)",
       "primary-text": "hsl(233, 13%, 49%)",
       white: "#ffffff",
+      price: "hsl(232, 13%, 33%)",
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],

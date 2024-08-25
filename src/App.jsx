@@ -14,7 +14,13 @@ function App() {
           </div>
       </div>
       <div className='flex flex-col justify-center items-center'>
-        <div className='flex flex-col justify-center items-center bg-white rounded-xl h-[146px] text-primary-text text-lg'>Basic</div>
+        <div className='flex flex-col justify-center items-center bg-white rounded-xl h-[452px]'>
+          <h2 className='text-primary-text text-lg mb-6'>Basic</h2>
+          <div className='flex flex-row justify-center items-center text-price'>
+            <div className='text-[40px] mr-1'>$</div>
+            <div className='text-7xl tracking-tight'>199.99</div>
+          </div>
+        </div>
       </div>
     </div>
   )
