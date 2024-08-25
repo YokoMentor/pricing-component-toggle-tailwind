@@ -26,3 +26,8 @@
 input[type="checkbox"]:checked+.switch::after {
     transform: translateX(21px);
 }
+
+hr.solid {
+    border-top: 1px solid #bbb;
+    width: 108%;
+}
