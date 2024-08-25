@@ -12,6 +12,7 @@ export default {
       bg: "hsl(240, 78%, 98%)",
       "toggle-label": "hsl(234, 14%, 74%)",
       "primary-text": "hsl(233, 13%, 49%)",
+      white: "#ffffff",
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
