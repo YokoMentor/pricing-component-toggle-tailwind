@@ -13,7 +13,7 @@ function App() {
             <div className='text-toggle-label text-[15px] ml-6'>Monthly</div>
           </div>
       </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center mb-[70px]'>
         <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8'>
           <h2 className='text-primary-text text-lg mb-6'>Basic</h2>
           <div className='flex flex-row justify-center items-center text-price mb-8'>
@@ -29,7 +29,7 @@ function App() {
           <hr className="solid"></hr>
           <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
-        <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] py-8 mt-8'>
+        <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] py-8 my-8'>
           <h2 className='text-white text-lg mb-6'>Professional</h2>
           <div className='flex flex-row justify-center items-center text-white mb-8'>
             <div className='text-[40px] mr-1'>$</div>
@@ -43,6 +43,21 @@ function App() {
           <div className='my-3.5 text-white text-[15px]'>Send up to 10 GB</div>
           <hr className="solid"></hr>
           <button className='bg-white px-20 py-3 rounded-lg text-dark-purple text-[13px] mt-8 tracking-widest'>LEARN MORE</button>
+        </div>
+        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8'>
+          <h2 className='text-primary-text text-lg mb-6'>Master</h2>
+          <div className='flex flex-row justify-center items-center text-price mb-8'>
+            <div className='text-[40px] mr-1'>$</div>
+            <div className='text-7xl tracking-tight'>399.99</div>
+          </div>
+          <hr className="solid"></hr>
+          <div className='my-3.5 text-primary-text text-[15px]'>2 TB Storage</div>
+          <hr className="solid"></hr>
+          <div className='my-3.5 text-primary-text text-[15px]'>10 Users Allowed</div>
+          <hr className="solid"></hr>
+          <div className='my-3.5 text-primary-text text-[15px]'>Send up to 20 GB</div>
+          <hr className="solid"></hr>
+          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
       </div>
     </div>
