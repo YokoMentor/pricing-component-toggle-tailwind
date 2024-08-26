@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen justify-center items-center bg-bg'>
+    <div className='flex flex-col min-h-screen justify-center items-center bg-bg bg-bg-top bg-no-repeat bg-[194px_-36px]'>
       <div className='flex flex-col justify-center items-center mb-20 mt-[60px]'>
           <h1 className='text-[32px] text-primary-text mb-9'>Our Pricing</h1>
           <div className='flex flex-row items-center justify-center'>

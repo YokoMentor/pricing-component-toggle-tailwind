@@ -20,6 +20,11 @@ export default {
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "bg-top": "url('./images/bg-top.svg')",
+        "bg-bottom": "url('./images/bg-bttom.svg')",
+      },
+    },
   },
 };
