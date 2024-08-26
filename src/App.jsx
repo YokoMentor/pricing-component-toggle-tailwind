@@ -14,7 +14,7 @@ function App() {
           </div>
       </div>
       <div className='flex flex-col justify-center items-center mb-[70px]'>
-        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8'>
+        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8 shadow-lg shadow-shadow'>
           <h2 className='text-primary-text text-lg mb-6'>Basic</h2>
           <div className='flex flex-row justify-center items-center text-price mb-8'>
             <div className='text-[40px] mr-1'>$</div>
@@ -29,7 +29,7 @@ function App() {
           <hr className="solid"></hr>
           <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
-        <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] py-8 my-8'>
+        <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] py-8 my-8 shadow-lg shadow-shadow'>
           <h2 className='text-white text-lg mb-6'>Professional</h2>
           <div className='flex flex-row justify-center items-center text-white mb-8'>
             <div className='text-[40px] mr-1'>$</div>
@@ -44,7 +44,7 @@ function App() {
           <hr className="solid"></hr>
           <button className='bg-white px-20 py-3 rounded-lg text-dark-purple text-[13px] mt-8 tracking-widest'>LEARN MORE</button>
         </div>
-        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8'>
+        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8 shadow-lg shadow-shadow'>
           <h2 className='text-primary-text text-lg mb-6'>Master</h2>
           <div className='flex flex-row justify-center items-center text-price mb-8'>
             <div className='text-[40px] mr-1'>$</div>

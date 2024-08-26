@@ -16,6 +16,7 @@ export default {
       price: "hsl(232, 13%, 33%)",
       "light-purple": "hsl(236, 72%, 79%)",
       "dark-purple": "hsl(237, 63%, 64%)",
+      shadow: "#dcdcf2",
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
