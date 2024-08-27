@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen justify-center items-center bg-bg bg-bg-top bg-no-repeat bg-[194px_-36px]'>
+    <div className='flex flex-col min-h-screen justify-center items-center bg-bg bg-bg-mobile bg-no-repeat bg-[194px_-36px] md:bg-bg-desktop md:bg-desktop'>
       <div className='flex flex-col justify-center items-center mb-20 mt-[60px]'>
           <h1 className='text-[32px] text-primary-text mb-9'>Our Pricing</h1>
           <div className='flex flex-row items-center justify-center'>
@@ -13,7 +13,7 @@ function App() {
             <div className='text-toggle-label text-[15px] ml-6'>Monthly</div>
           </div>
       </div>
-      <div className='flex flex-col justify-center items-center mb-[70px]'>
+      <div className='flex flex-col md:flex-row justify-center items-center mb-[70px]'>
         <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8 shadow-xl shadow-shadow'>
           <h2 className='text-primary-text text-lg mb-6'>Basic</h2>
           <div className='flex flex-row justify-center items-center text-price mb-8'>

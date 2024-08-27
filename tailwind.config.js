@@ -23,8 +23,12 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "bg-top": "url('./images/bg-top.svg')",
-        "bg-bottom": "url('./images/bg-bttom.svg')",
+        "bg-mobile": "url('./images/bg-top.svg')",
+        "bg-desktop":
+          "url('./images/bg-top.svg'),url('./images/bg-bottom.svg')",
+      },
+      backgroundPosition: {
+        desktop: "right top, left bottom",
       },
     },
   },
