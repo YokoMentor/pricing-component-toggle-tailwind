@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   return (
     <div className='flex flex-col min-h-screen justify-center items-center bg-bg bg-bg-mobile bg-no-repeat bg-[194px_-36px] md:bg-bg-desktop md:bg-desktop'>
-      <div className='flex flex-col justify-center items-center mb-20 mt-[60px]'>
+      <div className='flex flex-col justify-center items-center mb-20 md:mb-8 mt-[60px] md:mt-[68px]'>
           <h1 className='text-[32px] text-primary-text mb-9'>Our Pricing</h1>
           <div className='flex flex-row items-center justify-center'>
             <div className='text-toggle-label text-[15px] mr-6'>Annually</div>
@@ -14,7 +14,7 @@ function App() {
           </div>
       </div>
       <div className='flex flex-col md:flex-row justify-center items-center mb-[70px]'>
-        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8 shadow-xl shadow-shadow'>
+        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] md:w-[350px] py-8 shadow-xl shadow-shadow'>
           <h2 className='text-primary-text text-lg mb-6'>Basic</h2>
           <div className='flex flex-row justify-center items-center text-price mb-8'>
             <div className='text-[40px] mr-1'>$</div>
@@ -27,9 +27,9 @@ function App() {
           <hr className="solid"></hr>
           <div className='my-3.5 text-primary-text text-[15px]'>Send up to 3 GB</div>
           <hr className="solid"></hr>
-          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
+          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 md:px-24 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
-        <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] py-8 my-8 shadow-xl shadow-shadow'>
+        <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] md:w-[350px] py-14 my-8 shadow-xl shadow-shadow'>
           <h2 className='text-white text-lg mb-6'>Professional</h2>
           <div className='flex flex-row justify-center items-center text-white mb-8'>
             <div className='text-[40px] mr-1'>$</div>
@@ -42,9 +42,9 @@ function App() {
           <hr className="solid"></hr>
           <div className='my-3.5 text-white text-[15px]'>Send up to 10 GB</div>
           <hr className="solid"></hr>
-          <button className='bg-white px-20 py-3 rounded-lg text-dark-purple text-[13px] mt-8 tracking-widest'>LEARN MORE</button>
+          <button className='bg-white px-20 md:px-24 py-3 rounded-lg text-dark-purple text-[13px] mt-8 tracking-widest'>LEARN MORE</button>
         </div>
-        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] py-8 shadow-xl shadow-shadow'>
+        <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] md:w-[350px] py-8 shadow-xl shadow-shadow'>
           <h2 className='text-primary-text text-lg mb-6'>Master</h2>
           <div className='flex flex-row justify-center items-center text-price mb-8'>
             <div className='text-[40px] mr-1'>$</div>
@@ -57,7 +57,7 @@ function App() {
           <hr className="solid"></hr>
           <div className='my-3.5 text-primary-text text-[15px]'>Send up to 20 GB</div>
           <hr className="solid"></hr>
-          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
+          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 md:px-24 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
       </div>
     </div>
