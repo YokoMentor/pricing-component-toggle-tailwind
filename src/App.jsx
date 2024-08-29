@@ -27,7 +27,7 @@ function App() {
           <hr className="solid"></hr>
           <div className='my-3.5 text-primary-text text-[15px]'>Send up to 3 GB</div>
           <hr className="solid"></hr>
-          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 md:px-24 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
+          <button className='bg-gradient-to-r from-light-purple to-dark-purple hover:bg-none border:opacity-0 hover:border-dark-purple border-[1px] px-20 md:px-24 py-3 rounded-lg text-white hover:text-dark-purple text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
         <div className='flex flex-col justify-center items-center bg-gradient-to-b from-light-purple to-dark-purple rounded-xl w-[326px] md:w-[350px] py-14 my-8 shadow-xl shadow-shadow'>
           <h2 className='text-white text-lg mb-6'>Professional</h2>
@@ -42,7 +42,7 @@ function App() {
           <hr className="solid"></hr>
           <div className='my-3.5 text-white text-[15px]'>Send up to 10 GB</div>
           <hr className="solid"></hr>
-          <button className='bg-white px-20 md:px-24 py-3 rounded-lg text-dark-purple text-[13px] mt-8 tracking-widest'>LEARN MORE</button>
+          <button className='bg-white hover:bg-opacity-0 border-dark-purple hover:border-white border-[1px] hover:border-[1px] px-20 md:px-24 py-3 rounded-lg text-dark-purple hover:text-white text-[13px] mt-8 tracking-widest'>LEARN MORE</button>
         </div>
         <div className='flex flex-col justify-center items-center bg-white rounded-xl w-[326px] md:w-[350px] py-8 shadow-xl shadow-shadow'>
           <h2 className='text-primary-text text-lg mb-6'>Master</h2>
@@ -57,7 +57,7 @@ function App() {
           <hr className="solid"></hr>
           <div className='my-3.5 text-primary-text text-[15px]'>Send up to 20 GB</div>
           <hr className="solid"></hr>
-          <button className='bg-gradient-to-r from-light-purple to-dark-purple px-20 md:px-24 py-3 rounded-lg text-white text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
+          <button className='bg-gradient-to-r from-light-purple to-dark-purple hover:bg-none border:opacity-0 hover:border-dark-purple border-[1px] px-20 md:px-24 py-3 rounded-lg text-white hover:text-dark-purple text-[13px] font-bold mt-8 tracking-widest'>LEARN MORE</button>
         </div>
       </div>
     </div>
